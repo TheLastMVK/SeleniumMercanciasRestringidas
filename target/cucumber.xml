@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="39.187" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Logear Usuario por Tipo Perfil" name="login a user - #1.1" time="4.71">
+<system-out><![CDATA[
+Given page of login MR2 is all ready........................................passed
+When user enters credentials "backus@gmail.com" and "Vuce0424.".............passed
+Then user can see MR2 page..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registrar una nueva Solicitud" name="create a solicitud with tupa 16 - #1.1" time="33.183">
+<system-out><![CDATA[
+Given page of MR2 is all ready..............................................passed
+When user select iniciar solicitud button...................................passed
+And user select ipen entity.................................................passed
+And register new solicitud "YCHOCAN CUELLAR SONIA ANGELICA" and "Importación y/o comercialización de fuentes de radiación ionizante." and "Acelerador lineal" and "Mamografía" and "5".passed
+Then user can see solicitud transmitida exitosamente message................passed
+]]></system-out>
+</testcase>
+</testsuite>
